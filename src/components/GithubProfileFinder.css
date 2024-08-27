@@ -1,0 +1,78 @@
+.github-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.github-profile-container .input-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  & button {
+    cursor: pointer;
+    transition: 0.5s;
+    width: auto !important;
+  }
+  & button:hover {
+    color: #000;
+    background-color: pink;
+  }
+}
+
+.github-profile-container .input-wrapper input,
+.github-profile-container .input-wrapper button {
+  width: 70%;
+  background-color: #999;
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 12px;
+  color: white;
+}
+
+.github-profile-container .input-wrapper input {
+  border: 1px solid #555;
+  padding: 12px 14px;
+}
+
+.github-profile-container .user {
+  background-color: rgba(153, 153, 153, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0px 0px 10px #555;
+  padding: 12px;
+}
+
+.github-profile-container .user .image {
+  border: 1px solid #555;
+  border-radius: 12px;
+  width: 50%;
+}
+
+.github-profile-container .user img {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.github-profile-container .user div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #999;
+  color: #fff;
+}
